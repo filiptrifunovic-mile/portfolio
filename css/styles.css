@@ -73,7 +73,7 @@ ul {
 a {
   text-decoration: none;
 }
-img:not(.nav-logo) {
+img {
   width: 100%;
   display: block;
 }
@@ -170,7 +170,10 @@ p {
 Navbar
 ===============
 */
-
+.nav-logo {
+  height: 80px;
+  /* width: 10%; */
+}
 /*
 =============== 
 Sidebar
